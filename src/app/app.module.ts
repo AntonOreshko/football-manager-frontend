@@ -35,6 +35,7 @@ import { MedicalCenterComponent } from './components/infrastructure/medical-cent
 import { StadiumComponent } from './components/infrastructure/stadium/stadium.component';
 import { ShopComponent } from './components/shop/shop/shop.component';
 import { SettingsComponent } from './components/settings/settings/settings.component';
+import { MainHeaderComponent } from './components/main-header/main-header.component';
 
 @NgModule({
   declarations: [
@@ -71,6 +72,7 @@ import { SettingsComponent } from './components/settings/settings/settings.compo
     StadiumComponent,
     ShopComponent,
     SettingsComponent,
+    MainHeaderComponent,
   ],
   imports: [
     BrowserModule, AlertModule.forRoot()

@@ -1,1 +1,119 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+}
+
+.fm-container {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 100%;
+    text-align: center;
+}
+
+.fm-header {
+    display: flex;
+    background-color: lightblue;
+    height: 50px;
+}
+
+.fm-header-item {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background-color: lightpink;
+    font-weight: bold;
+}
+
+.fm-row {
+    flex: 1;
+    display: flex;
+    background-color: yellow;
+    width: 100%;
+}
+
+.fm-row-item {
+    background-color: lightcoral;
+    font-weight: bold;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.fm-row-item-5pc {
+    width: 5%;
+}
+
+.fm-row-item-10pc {
+    width: 10%;
+}
+
+.fm-row-item-15pc {
+    width: 15%;
+}
+
+.fm-row-item-20pc {
+    width: 20%;
+}
+
+.fm-row-item-25pc {
+    width: 25%;
+}
+
+.fm-row-item-30pc {
+    width: 30%;
+}
+
+.fm-row-item-35pc {
+    width: 35%;
+}
+
+.fm-row-item-40pc {
+    width: 40%;
+}
+
+.fm-row-item-45pc {
+    width: 45%;
+}
+
+.fm-row-item-50pc {
+    width: 50%;
+}
+
+.fm-row-item-55pc {
+    width: 55%;
+}
+
+.fm-row-item-60pc {
+    width: 60%;
+}
+
+.fm-row-item-65pc {
+    width: 65%;
+}
+
+.fm-row-item-70pc {
+    width: 70%;
+}
+
+.fm-row-item-75pc {
+    width: 75%;
+}
+
+.fm-row-item-80pc {
+    width: 80%;
+}
+
+.fm-row-item-85pc {
+    width: 85%;
+}
+
+.fm-row-item-90pc {
+    width: 90%;
+}
+
+.fm-row-item-95pc {
+    width: 95%;
+}
+
+.fm-row-item-100pc {
+    width: 100%;
+}
