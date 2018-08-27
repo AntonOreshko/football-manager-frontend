@@ -2,118 +2,258 @@ html, body {
     height: 100%;
 }
 
-.fm-container {
+.axs-container {
     display: flex;
-    flex-direction: column;
-    background-color: aquamarine;
-    height: 100%;
-    text-align: center;
-}
-
-.fm-header {
-    display: flex;
-    background-color: lightblue;
-    height: 50px;
-}
-
-.fm-header-item {
-    width: 100px;
-    height: 40px;
-    margin: 5px;
-    background-color: lightpink;
-    font-weight: bold;
-}
-
-.fm-row {
-    flex: 1;
-    display: flex;
-    background-color: yellow;
-    width: 100%;
-}
-
-.fm-row-item {
-    background-color: lightcoral;
-    font-weight: bold;
-    width: 100%;
+    background-color: skyblue;
     border: 1px solid black;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
-.fm-row-item-5pc {
+.axs-row {
+    background-color: bisque;
+    border: 1px dotted black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.axs-column {
+    background-color: lightsalmon;
+    border: 1px double black;
+    display: flex;
+}
+
+/* #region ALIGN ITEMS */
+
+.axs-align-items-stretch {
+    align-items: stretch;
+}
+
+.axs-align-items-flex-start {
+    align-items: flex-start;
+}
+
+.axs-align-items-flex-end {
+    align-items: flex-end;
+}
+
+.axs-align-items-center {
+    align-items: center;
+}
+
+.axs-align-items-baseline {
+    align-items: baseline;
+}
+
+/* #endregion ALIGN ITEMS */
+
+/* #region JUSTIFY CONTENT */
+
+.axs-justify-content-flex-start {
+    justify-content: flex-start;
+}
+
+.axs-justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.axs-justify-content-center {
+    justify-content: center;
+}
+
+.axs-justify-content-space-between {
+    justify-content: space-between;
+}
+
+.axs-justify-content-space-around {
+    justify-content: space-around;
+}
+
+/* #endregion JUSTIFY CONTENT */
+
+/* #region STRETCH */
+
+.axs-height-stretched {
+    height: 100%;
+}
+
+.axs-width-stretched {
+    width: 100%;
+}
+
+.axs-stretched {
+    height: 100%;
+    width: 100%;
+}
+
+/*#endregion STRETCH*/
+
+/* #region HEIGHTS */
+
+.axs-height-5pc {
+    height: 5%;
+}
+
+.axs-height-10pc {
+    height: 10%;
+}
+
+.axs-height-15pc {
+    height: 15%;
+}
+
+.axs-height-20pc {
+    height: 20%;
+}
+
+.axs-height-25pc {
+    height: 25%;
+}
+
+.axs-height-30pc {
+    height: 30%;
+}
+
+.axs-height-35pc {
+    height: 35%;
+}
+
+.axs-height-40pc {
+    height: 40%;
+}
+
+.axs-height-45pc {
+    height: 45%;
+}
+
+.axs-height-50pc {
+    height: 50%;
+}
+
+.axs-height-55pc {
+    height: 55%;
+}
+
+.axs-height-60pc {
+    height: 60%;
+}
+
+.axs-height-65pc {
+    height: 65%;
+}
+
+.axs-height-70pc {
+    height: 70%;
+}
+
+.axs-height-75pc {
+    height: 75%;
+}
+
+.axs-height-80pc {
+    height: 80%;
+}
+
+.axs-height-85pc {
+    height: 85%;
+}
+
+.axs-height-90pc {
+    height: 90%;
+}
+
+.axs-height-95pc {
+    height: 95%;
+}
+
+.axs-height-100pc {
+    height: 100%;
+}
+
+/* #endregion HEIGHTS */
+
+/* #region WIDTHS */
+
+.axs-width-5pc {
     width: 5%;
 }
 
-.fm-row-item-10pc {
+.axs-width-10pc {
     width: 10%;
 }
 
-.fm-row-item-15pc {
+.axs-width-15pc {
     width: 15%;
 }
 
-.fm-row-item-20pc {
+.axs-width-20pc {
     width: 20%;
 }
 
-.fm-row-item-25pc {
+.axs-width-25pc {
     width: 25%;
 }
 
-.fm-row-item-30pc {
+.axs-width-30pc {
     width: 30%;
 }
 
-.fm-row-item-35pc {
+.axs-width-35pc {
     width: 35%;
 }
 
-.fm-row-item-40pc {
+.axs-width-40pc {
     width: 40%;
 }
 
-.fm-row-item-45pc {
+.axs-width-45pc {
     width: 45%;
 }
 
-.fm-row-item-50pc {
+.axs-width-50pc {
     width: 50%;
 }
 
-.fm-row-item-55pc {
+.axs-width-55pc {
     width: 55%;
 }
 
-.fm-row-item-60pc {
+.axs-width-60pc {
     width: 60%;
 }
 
-.fm-row-item-65pc {
+.axs-width-65pc {
     width: 65%;
 }
 
-.fm-row-item-70pc {
+.axs-width-70pc {
     width: 70%;
 }
 
-.fm-row-item-75pc {
+.axs-width-75pc {
     width: 75%;
 }
 
-.fm-row-item-80pc {
+.axs-width-80pc {
     width: 80%;
 }
 
-.fm-row-item-85pc {
+.axs-width-85pc {
     width: 85%;
 }
 
-.fm-row-item-90pc {
+.axs-width-90pc {
     width: 90%;
 }
 
-.fm-row-item-95pc {
+.axs-width-95pc {
     width: 95%;
 }
 
-.fm-row-item-100pc {
+.axs-width-100pc {
     width: 100%;
 }
+
+/* #endregion WIDTHS */

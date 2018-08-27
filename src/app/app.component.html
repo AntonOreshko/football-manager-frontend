@@ -1,18 +1,81 @@
-<div class="fm-container">
+<!-- <div class="fm-container">
     <div class="fm-header">
         <div class="fm-header-item">
-            HOME
+            <input type="button" value="HOME" routerLink="/home" class="fm-header-button"/>
+        </div>
+        <div class="fm-header-item" style="margin-left: auto;">
+            <input type="button" value="REGISTER" routerLink="/register" class="fm-header-button"/>
+        </div>
+        <div class="fm-header-item">
+            <input type="button" value="LOGIN" routerLink="/login" class="fm-header-button"/>
         </div>
     </div>
-    <div class="fm-row">
+    <div class="fm-row fm-stretch-row">
         <div class="fm-row-item fm-row-item-20pc">
         </div>
         <div class="fm-row-item fm-row-item-60pc">
-            <div class="fm-container">
-
-            </div>
+            <router-outlet></router-outlet>
         </div>    
         <div class="fm-row-item fm-row-item-20pc">
         </div>
+    </div>
+</div> -->
+<div class="axs-container">
+    <div class="axs-row axs-height-20pc axs-justify-content-space-around axs-align-items-center">
+        <div class="axs-column axs-width-10pc axs-height-70pc">
+
+        </div>
+        <div class="axs-column axs-width-20pc axs-height-90pc">
+
+        </div>        
+    </div>
+    <div class="axs-row axs-height-stretched axs-justify-content-center axs-align-items-center">
+        <div class="axs-column axs-height-40pc axs-width-25pc">
+            <div class="axs-container">
+                <div class="axs-row axs-height-20pc">
+                    <div class="axs-column axs-width-35pc axs-align-items-center axs-justify-content-space-around">
+                        <label>Email:</label>
+                    </div>
+                    <div class="axs-column axs-width-65pc axs-align-items-center">
+                        <input type="text" placeholder="Email address" class="axs-height-50pc axs-width-stretched" />
+                    </div>
+                </div>
+                <div class="axs-row axs-height-20pc">
+                    <div class="axs-column axs-width-35pc axs-align-items-center axs-justify-content-space-around">
+                        <label>First Name:</label>
+                    </div>
+                    <div class="axs-column axs-width-65pc axs-align-items-center">
+                        <input type="text" placeholder="First Name" class="axs-height-50pc axs-width-stretched" />
+                    </div>
+                </div>    
+                <div class="axs-row axs-height-20pc">
+                    <div class="axs-column axs-width-35pc axs-align-items-center axs-justify-content-space-around">
+                        <label>Last Name:</label>
+                    </div>
+                    <div class="axs-column axs-width-65pc axs-align-items-center">
+                        <input type="text" placeholder="Last Name" class="axs-height-50pc axs-width-stretched" />
+                    </div>
+                </div>    
+                <div class="axs-row axs-height-20pc">
+                    <div class="axs-column axs-width-35pc axs-align-items-center axs-justify-content-space-around">
+                        <label>Password:</label>
+                    </div>
+                    <div class="axs-column axs-width-65pc axs-align-items-center">
+                        <input type="text" placeholder="Password" class="axs-height-50pc axs-width-stretched" />
+                    </div>
+                </div>
+                <div class="axs-row axs-height-20pc">
+                    <div class="axs-column axs-width-35pc axs-align-items-center axs-justify-content-space-around">
+                        <label>Confirm password:</label>
+                    </div>
+                    <div class="axs-column axs-width-65pc axs-align-items-center">
+                        <input type="text" placeholder="Confirm password" class="axs-height-50pc axs-width-stretched" />
+                    </div>
+                </div>    
+            </div>
+        </div>    
+    </div>
+    <div class="axs-row axs-height-30pc">
+
     </div>
 </div>

@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
 
 import { AppComponent } from './app.component';
 import { AlertModule } from 'ngx-bootstrap';
@@ -36,6 +38,10 @@ import { StadiumComponent } from './components/infrastructure/stadium/stadium.co
 import { ShopComponent } from './components/shop/shop/shop.component';
 import { SettingsComponent } from './components/settings/settings/settings.component';
 import { MainHeaderComponent } from './components/main-header/main-header.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { HomeComponent } from './components/home/home.component';
+import { RoutingModule } from './routing/routing.module';
 
 @NgModule({
   declarations: [
@@ -73,9 +79,12 @@ import { MainHeaderComponent } from './components/main-header/main-header.compon
     ShopComponent,
     SettingsComponent,
     MainHeaderComponent,
+    LoginComponent,
+    RegisterComponent,
+    HomeComponent,
   ],
   imports: [
-    BrowserModule, AlertModule.forRoot()
+    BrowserModule, AlertModule.forRoot(), RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
