@@ -7,15 +7,14 @@ html, body {
     min-height: 50px;
     height: 50px;
     display: flex;
-    background-color: lightgreen;
-    border: 1px dotted black;
+    background-color: lightskyblue;
+    border: 1px solid black;
 }
 
 .axs-button {
     margin: 5px;
     width: 90px;
-    background-color: #4CAF50; /* Green */
-    border: none;
+    background-color: skyblue;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -23,29 +22,29 @@ html, body {
     font-size: 18px;
     font-weight: bold;
     border-radius: 3px;
-    border: 1px solid darkgreen;    
+    border: 1px solid darkgreen;
 }
 
 .axs-container {
     display: flex;
     background-color: skyblue;
-    border: 1px solid black;
+    /*border: 1px solid black; */
     flex-direction: column;
     height: 100%;
     width: 100%;
 }
 
 .axs-row {
-    background-color: bisque;
-    border: 1px dotted black;
+    /* background-color: bisque;
+    border: 1px dotted black; */
     width: 100%;
     height: 100%;
     display: flex;
 }
 
 .axs-column {
-    background-color: lightsalmon;
-    border: 1px double black;
+    /* background-color: lightsalmon;
+    border: 1px double black; */
     display: flex;
 }
 
@@ -54,11 +53,19 @@ html, body {
     width: 100%;
     min-height: 25px;
     margin: 5px;
+    border: 1px solid black;
 }
 
 .axs-label {
     font-family: 'Roboto';
     font-size: 15px;
+}
+
+.axs-form {
+    border: 1px solid black;
+    background-color: lightskyblue;
+    border-radius: 3px;
+    padding: 10px;  
 }
 
 /* #region ITEMS DIRRECTION */
